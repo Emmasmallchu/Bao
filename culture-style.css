@@ -1,0 +1,57 @@
+/*共同的*/
+*{box-sizing: border-box;}
+.list-group{
+            width:65%;
+            margin:0px 150px;
+            }
+.list-group-item{
+            border:3px solid #ffffff;
+            border-radius:8px;
+            padding:10px;font-size:14px;
+            background-color:#ff66a4;
+            }
+a{display:block;
+  text-decoration:none;
+  color:#ffffff}
+a:hover{color:#ff66a4;background-color:#ffffff;border-radius:8px;}
+span{margin:0px 35px;}
+h2{text-align:center;padding:5px;}
+.footer{
+width:98%;height:110px;margin:auto;padding:20px;
+background-color:#ff0066;
+border-radius:3px;
+color:#ffffff;
+}
+.adress{text-align:center;}
+.copy{text-align:center;}
+p{color:#666a68;}
+.media-heading>p{text-align:center;}
+/*共同的*/
+/* music-style*/
+.jumbotron{background-color:#ff0066;color:#ffffff}
+.jumbotron>p{color:#ffffff;}
+.culture-nav{
+     border-radius:3px;
+     margin:-55px 0px 3px 0px;}
+.culture-nav>li{
+       width:120px;height:50px;padding:10px;
+       border:5px solid #ffffff;
+       border-radius:88px;
+       margin:0px 1%;
+       background-color:#ff66a4;
+       list-style-type:none;display:inline-block;
+       text-align:center;}
+.culture-nav>li>a{text-decoration:none;color:#ffffff;display:block;}
+.culture-nav>li>a:hover{color:#ff66a4;background-color:#ffffff;border-radius:88px}
+
+#classtic{margin:3px 0px;}
+#night{margin:3px 0px;}
+#outsite{margin:3px 0px;}
+#drink{margin:3px 0px;}
+#gift{margin:3px 0px;}
+.contect-item{background-color:#ff66a4;margin:10px auto;color:#ffffff;padding:3px;text-align:center;border-radius:88px;width:88px;}
+
+.thumbnail{border:2px solid #ff66a4}
+
+img{width:300px;padding:15px;border-radius:10px;}
+button{display:inline-block;border-radius: 10px;}
