@@ -37,50 +37,20 @@ background-size:cover;
 height:420px;
 }
 
+.mobile{width:80%;height:80%;margin:auto;background-color:#ff66a4;color:#ffffff;text-align:center;}
+
 /* 手機板 */
-@media screen and (min-width: 1024px) {
-  .menu-button,
-  .menu-button-checkbox {
-    display: ;
+@media screen and (min-width: 990px) {
+  .mobile
+   {
+    display:none;
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .container {
-    width: auto;
-  }
+@media screen and (max-width: 991px) {
 
-  .menu-button {
-    position: fixed;
-    font-size: 25px;
-    line-height: 40px;
-    color: black;
-    background: transparent;
-    padding: 0 15px;
-    border: 0;
-  }
-  .list-group {
-    display: none;
-    margin-top: 0;
-    padding-left: 0;
-    position: fixed;
-    right:-100px;
-    top: 10px;
-    width: 250px;
-    height: 100%;
-    background: red;
-  }
-  .menu-button-checkbox {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 55px;
-    height: 40px;
-    opacity: 0;
-  }
-
-  .menu-button-checkbox:checked ~ .list-group {
-    display: block;
+  .container-fruid {
+   display:none;
   }
   
 }
