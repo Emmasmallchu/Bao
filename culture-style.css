@@ -55,3 +55,12 @@ p{color:#666a68;}
 
 img{width:300px;padding:15px;border-radius:10px;}
 button{display:inline-block;border-radius: 10px;}
+h4{width:100px;height:150px;
+  border:2px solid lightgrey;
+  float:left;text-align: 
+  center;padding: 65px 0}
+.media p{border:2px solid lightgrey;
+  margin:0px 150px;padding: 65px 0 ;
+  width:680px;height:150px;
+  position: relative;bottom: 20px;
+  text-align: center;}
