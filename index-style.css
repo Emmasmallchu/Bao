@@ -37,7 +37,10 @@ background-size:cover;
 height:420px;
 }
 
-.mobile{width:80%;height:80%;margin:auto;background-color:#ff66a4;color:#ffffff;text-align:center;}
+.mobile{width:80%;height:80%;
+    margin:auto;
+    color:#ffffff;
+    text-align:center;position: relative;top:30px;}
 
 /* 手機板 */
 @media screen and (min-width: 990px) {
@@ -52,5 +55,5 @@ height:420px;
   .container-fruid {
    display:none;
   }
-  
+  body{background-color: #ff0066}
 }
